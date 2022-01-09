@@ -1,10 +1,8 @@
-module github.com/wyy-go/go-cli-template
+module github.com/wyy-go/wauth
 
-go 1.17
-
-require github.com/spf13/cobra v1.2.1
+go 1.16
 
 require (
-	github.com/inconshreveable/mousetrap v1.0.0 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/casbin/casbin/v2 v2.37.0
+	github.com/gin-gonic/gin v1.7.7
 )
